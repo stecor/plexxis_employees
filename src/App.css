@@ -14,8 +14,8 @@ th,td{
   text-align: left;
 }
 
-.btn-edit{
-  margin-left: 60px;
+.btn-create{
+  margin-left: 20px;
   padding: 5px 12px 5px 12px;
   background-color: blue;
   color: #fff;
@@ -23,18 +23,19 @@ th,td{
   border-radius: 5px;
 }
 
-.btn-edit:hover{
+.btn-create:hover{
   background-color: #fff;
   color: blue;
 }
 
 .btn-del{
-  margin-left: 10px;
+  margin-left: 50px;
   padding: 5px;
   background-color: red;
   color: #fff;
   cursor: pointer;
   border-radius: 5px;
+  float: right;
 }
 
 .btn-del:hover{
@@ -42,6 +43,10 @@ th,td{
   color: red;
 }
 
-td span{
-  float: right;
+input{
+  margin-left: 10px;
+}
+
+label{
+  margin-left: 10px;
 }
